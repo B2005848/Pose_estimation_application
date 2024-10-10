@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Pose Estimate App",
+    "slug": "MyApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/CTU_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/StartImage.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/StartImage.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/StartImage.png"
+    },
+    "plugins": ["expo-camera", "expo-font"]
+  }
+}
