@@ -11,7 +11,9 @@ const HomeScreen = () => {
       <View style={styles.body}>
         <Camera />
       </View>
-      <View style={styles.footer}></View>
+      <View style={styles.footer}>
+        <Text>Result:..........</Text>
+      </View>
     </View>
   );
 };
