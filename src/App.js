@@ -5,7 +5,7 @@ import HomeScreen from "./screens/HomeScreen";
 import ResultScreen from "./screens/ResultScreen";
 
 const Stack = createStackNavigator();
-
+//dtan
 const App = () => {
   return (
     <NavigationContainer>
